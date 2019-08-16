@@ -7,14 +7,12 @@
   <meta name="author" content="Time4Chicken">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Time4Chicken - Smażalnia Kurczaków</title>
-  <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css" type="text/css">
   <style>
     .map {
       height: 400px;
       width: 100%;
     }
   </style>
-  <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
   <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList"></script>
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -342,21 +340,8 @@ header .overlay {
         </div>
         <!-- Footer Location -->
         <div class="col-lg-8 mb-5 mb-lg-0">
-  <div id="map" class="col-lg-12 map"></div>
-<script type="text/javascript">
-  var map = new ol.Map({
-	target: 'map',
-	layers: [
-	  new ol.layer.Tile({
-		source: new ol.source.OSM()
-	  })
-	],
-	view: new ol.View({
-	  center: ol.proj.fromLonLat([50.22183, 19.24726]),
-	  zoom: 19
-	})
-  });
-</script>
+  <div id="map" class="col-lg-12 map">
+<iframe width="700" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=19.244686067104343%2C50.22111456998019%2C19.249165356159214%2C50.22254410024677&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=19/50.22183/19.24693">View Larger Map</a></small></div>
           </div>
 
 
