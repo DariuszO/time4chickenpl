@@ -1988,7 +1988,7 @@ pre code {
   }
 }
 
-@media (max-width: 1199.98px) {
+@media (max-width : 1256px ){
   .table-responsive-xl {
     display: block;
     width: 100%;
@@ -4671,7 +4671,7 @@ input[type="button"].btn-block {
   }
 }
 
-@media (max-width: 1199.98px) {
+@media (max-width : 1256px ){
   .navbar-expand-xl > .container,
   .navbar-expand-xl > .container-fluid {
     padding-right: 0;
@@ -10756,7 +10756,7 @@ a.text-dark:hover, a.text-dark:focus {
     line-height: 3.5rem;
   }
   .masthead .masthead-subheading {
-    font-size: 1.5rem;
+    font-size: 4rem;
   }
 }
 
