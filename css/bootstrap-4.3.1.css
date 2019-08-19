@@ -2646,8 +2646,8 @@ fieldset:disabled a.btn {
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(60, 198, 171, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(60, 198, 171, 0.5);
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(198,171,60,0.50);
+    box-shadow: 0 0 0 0.2rem rgba(198,171,60,0.50);
 }
 
 .btn-secondary {
