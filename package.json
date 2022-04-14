@@ -31,7 +31,7 @@
     "url": "git+https://github.com/DariuszO/time4chickenpl.git"
   },
   "dependencies": {
-    "async": "^3.1.0",
+    "async": "^3.2.2",
     "bootstrap": "^4.3.1",
     "bower": "^1.8.8",
     "browserify": "^16.5.0",
